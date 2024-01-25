@@ -7,6 +7,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const port = process.env.PORT || 5000
 
+
 var serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 
 admin.initializeApp({
